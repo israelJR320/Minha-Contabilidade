@@ -4,7 +4,7 @@ while True:
     print('Menu Principal'.center(30))
     print('''
           [1] Gerenciar Lançamentos
-          [2] Vizualizar Relatórios
+          [2] Visualizar Relatórios
           [3] Orçamento Mensal
           [4] Planejamento e Metas
           [5] Despesas Com Cartão de Credito
@@ -17,7 +17,7 @@ while True:
             print('''\n
                   [1] Adicionar Lançamento
                   [2] Editar Lançamento
-                  [3] Excluir lançamento
+                  [3] Excluir Lançamento
                   [4] Listar Lançamentos
                   [0] Retornar ao Menu Principal
                 ''')
@@ -34,7 +34,7 @@ while True:
                 break
     elif select_mestre == 2:
         while True:
-            print('Vizualizar relatórios'.center(30))
+            print('Visualizar relatórios'.center(30))
             print('''
                   [1] Resumo Mensal
                   [2] Gastos por Categoria
@@ -54,7 +54,7 @@ while True:
         while True:
             print('Orçamento Mensal'.center(30))
             print('''
-                  [1] Deinir Limite por Categoria
+                  [1] Definir Limite por Categoria
                   [2] Verificar Status do Orçamento
                   [3] Alertas
                   [0] Retornar ao Menu Principal
@@ -99,7 +99,7 @@ while True:
             if select_menu5 == 1:
                 while True:
                     print('Gerenciar Lançamentos'.center(30))
-                    print('''\n
+                    print('''
                         [1] Adicionar Lançamento
                         [2] Editar Lançamento
                         [3] Excluir lançamento
@@ -151,7 +151,7 @@ while True:
                         elif select_menu3 == 2:
                             print('Verificar Status do Orçamento')
                         elif select_menu3 == 3:
-                            print('Alertas'.center(30))
+                            print('Alertas')
                         elif select_menu3 == 0:
                             break
             elif select_menu5 == 0:
